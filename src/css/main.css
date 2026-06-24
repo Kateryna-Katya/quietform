@@ -197,3 +197,35 @@ width: 343px;
     height: 194px;
 }  
 }
+/* About */
+.about-section{
+background-color: #e8ddd0;
+background-image: url("/img/about/mob.png");
+background-repeat: no-repeat;
+background-position: bottom center;
+background-size: 100% 272px;
+height: 727px;
+}
+.about-text{
+    width: 273px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #3d3730;
+}
+.desk{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+.about-section{
+background-color: #e8ddd0;
+background-image: url("/img/about/desk.png");
+background-size: 100% 661px;
+height: 1032px;
+}
+.about-text{
+width: 100%;
+} 
+.desk{
+    display: block;
+}   
+}
